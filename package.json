@@ -1,7 +1,8 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
+  "name": "solid-ci-cd",
+  "version": "0.0.1",
   "description": "",
+  "homepage": "https://github.com/codesupr/solid-ci-cd/",
   "scripts": {
     "start": "vite",
     "dev": "vite",
