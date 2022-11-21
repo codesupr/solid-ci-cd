@@ -1,0 +1,16 @@
+languages: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - "node_modules"
+script:
+  - yarn test
+  - yarn build
+deploy:
+  provide: pages
+  skip_cleanup: true
+  github_token: $GH_PAT
+  local_dir: dist
+  on:
+    branch: master
